@@ -7,7 +7,7 @@ public class CylinderVolume {
         float height = input.nextFloat();
         float radius = input.nextFloat();
         float volume = (float) (Math.PI * Math.pow(radius, 2) * height);
-        System.out.println("The volume of the cylinder is: " + area);
+        System.out.println("The volume of the cylinder is: " + volume);
     }
 }
 
