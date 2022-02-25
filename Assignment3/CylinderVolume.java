@@ -6,8 +6,8 @@ public class CylinderVolume {
         Scanner input = new Scanner(System.in);
         float height = input.nextFloat();
         float radius = input.nextFloat();
-        float area = (float) (Math.PI * Math.pow(radius, 2) * height);
-        System.out.println("The area of the cylinder is: " + area);
+        float volume = (float) (Math.PI * Math.pow(radius, 2) * height);
+        System.out.println("The volume of the cylinder is: " + area);
     }
 }
 
@@ -19,7 +19,7 @@ C:\Users\theku\.jdks\openjdk-17.0.2\bin\java.exe "-javaagent:C:\Program Files\Je
 Enter the height of the cylinder followed by the radius:
 4
 3.5
-The area of the cylinder is: 153.93803
+The volume of the cylinder is: 153.93803
 
 Process finished with exit code 0
 
